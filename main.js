@@ -1,6 +1,6 @@
 console.log("Hello, world!");
 
-function addExcitement(words, punct){
+let addExcitement = (words, punct) => {
     let build = "";
     var third = 1;
     for(let i = 0; i < words.length; i += 1){
